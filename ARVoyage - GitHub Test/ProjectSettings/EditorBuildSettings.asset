@@ -29,4 +29,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Modules/BuildAShip/BuildAShip.unity
     guid: efc514f17139b40539fccd6c86c03b0a
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 1b0ecf1604eb51b46b01a8263799f21d,
+      type: 2}
