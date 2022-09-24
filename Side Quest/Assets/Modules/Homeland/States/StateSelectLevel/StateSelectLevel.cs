@@ -18,6 +18,7 @@ namespace Niantic.ARVoyage.Homeland
         [Header("GUI")]
         [SerializeField] private GameObject levelWalkaboutGUI;
         [SerializeField] private GameObject levelSnowballTossGUI;
+        [SerializeField] private GameObject levelSnowballTossTJKGUI;
         [SerializeField] private GameObject levelSnowballFightGUI;
         [SerializeField] private GameObject levelBuildAShipGUI;
         private GameObject activeLevelGUI;
@@ -118,6 +119,7 @@ namespace Niantic.ARVoyage.Homeland
             // Toggle the matching GUI
             ShowLevelGUI(levelWalkaboutGUI, waypoint.level == Level.Walkabout, immediateHide: true);
             ShowLevelGUI(levelSnowballTossGUI, waypoint.level == Level.SnowballToss, immediateHide: true);
+            ShowLevelGUI(levelSnowballTossTJKGUI, waypoint.level == Level.SnowballTossTJK, immediateHide: true);
             ShowLevelGUI(levelSnowballFightGUI, waypoint.level == Level.SnowballFight, immediateHide: true);
             ShowLevelGUI(levelBuildAShipGUI, waypoint.level == Level.BuildAShip, immediateHide: true);
             timeChosenLevel = Time.time;
@@ -201,6 +203,7 @@ namespace Niantic.ARVoyage.Homeland
         {
             ShowLevelGUI(levelWalkaboutGUI, false);
             ShowLevelGUI(levelSnowballTossGUI, false);
+            ShowLevelGUI(levelSnowballTossTJKGUI, false);
             ShowLevelGUI(levelSnowballFightGUI, false);
             ShowLevelGUI(levelBuildAShipGUI, false);
         }

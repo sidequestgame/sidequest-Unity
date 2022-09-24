@@ -13,5 +13,6 @@ namespace Niantic.ARVoyage
         SnowballToss,
         VPS,
         Walkabout,
+        SnowballTossTJK,
     }
 }

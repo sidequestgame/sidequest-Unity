@@ -62,6 +62,7 @@ namespace Niantic.ARVoyage.Homeland
 
             // Initialize the level path animation homeland
             levelPathAnimationPercentHomeland.Add(Level.SnowballToss, 0.166f);
+            levelPathAnimationPercentHomeland.Add(Level.SnowballTossTJK, 0.166f);
             levelPathAnimationPercentHomeland.Add(Level.Walkabout, 0.403f);
             levelPathAnimationPercentHomeland.Add(Level.SnowballFight, 0.817f);
             levelPathAnimationPercentHomeland.Add(Level.BuildAShip, 1f);
