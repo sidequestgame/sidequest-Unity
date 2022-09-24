@@ -23,6 +23,7 @@ namespace Niantic.ARVoyage.Homeland
         [SerializeField] private GameObject gui;
         [SerializeField] private GameObject fullscreenBackdrop;
         [SerializeField] private GameObject exitToWorldMap;
+        [SerializeField] private GameObject exitToTJK;
         [SerializeField] private GameObject settingsButton;
         [SerializeField] private Button startButton;
 
@@ -69,6 +70,7 @@ namespace Niantic.ARVoyage.Homeland
 
             // Hide exitToWorldMap button, settings button
             exitToWorldMap.gameObject.SetActive(false);
+            exitToTJK.gameObject.SetActive(false);
             settingsButton.gameObject.SetActive(false);
 
             // Hide badge row
@@ -128,6 +130,7 @@ namespace Niantic.ARVoyage.Homeland
 
             // Show exitToWorld map button because user is allowed to access the VPS experience
             exitToWorldMap.gameObject.SetActive(true);
+            exitToTJK.gameObject.SetActive(true);
 
             // Show settings button
             settingsButton.gameObject.SetActive(true);
