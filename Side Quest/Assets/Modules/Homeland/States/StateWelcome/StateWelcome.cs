@@ -66,7 +66,7 @@ namespace Niantic.ARVoyage.Homeland
             Skipped = false;
 
             // Show fullscreen backdrop
-            fullscreenBackdrop.gameObject.SetActive(true);
+            //fullscreenBackdrop.gameObject.SetActive(true);
 
             // Hide exitToWorldMap button, settings button
             exitToWorldMap.gameObject.SetActive(false);

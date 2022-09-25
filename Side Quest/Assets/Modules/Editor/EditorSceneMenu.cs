@@ -40,6 +40,12 @@ namespace Niantic.ARVoyage
             EditorSceneManager.OpenScene("Assets/Modules/SnowballToss/SnowballToss.unity");
         }
 
+        [MenuItem("Scenes/SnowballTossTJK")]
+        static void OpenSnowballTossTJK()
+        {
+            EditorSceneManager.OpenScene("Assets/Modules/SnowballToss/SnowballTossTJK.unity");
+        }
+
         [MenuItem("Scenes/Splash")]
         static void OpenSplash()
         {
