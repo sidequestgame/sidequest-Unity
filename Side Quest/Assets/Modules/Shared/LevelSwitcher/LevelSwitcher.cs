@@ -21,7 +21,7 @@ namespace Niantic.ARVoyage
 
         public void ExitToTJK()
         {
-            LoadLevel(Level.SnowballTossTJK, fadeOutBeforeLoad: true);
+            LoadLevel(Level.PortalDemo, fadeOutBeforeLoad: true);
         }
 
         public void LoadLevel(Level level, bool fadeOutBeforeLoad)

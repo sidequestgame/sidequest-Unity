@@ -14,5 +14,6 @@ namespace Niantic.ARVoyage
         VPS,
         Walkabout,
         SnowballTossTJK,
+        PortalDemo,
     }
 }
