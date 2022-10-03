@@ -2648,7 +2648,7 @@ GameObject:
   - component: {fileID: 1247152093}
   - component: {fileID: 1247152092}
   m_Layer: 0
-  m_Name: SnowballTossManager
+  m_Name: PortalSpawnManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2667,7 +2667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snowballMaker: {fileID: 379526492}
-  snowringPrefab: {fileID: 1542568366266590172, guid: 3350c322162b14df0a524469d991bcc5,
+  snowringPrefab: {fileID: 5258881185686954722, guid: 41a8ef5480a5d7a488963d6c0c857e78,
     type: 3}
   _ARMeshUpdater: {fileID: 308111515}
   gameTimeAndScoreGUI: {fileID: 347019762}
