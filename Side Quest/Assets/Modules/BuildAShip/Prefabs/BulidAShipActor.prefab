@@ -46,6 +46,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   verticalOnly: 1
   invertDirection: 1
+--- !u!95 &5052985940540260252
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071628847513453139}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4649800539815587805
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a453de5afb5c04294a0598d32dc3bb, type: 3}
+<<<<<<< HEAD
 --- !u!1 &1071628847513453139 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76a453de5afb5c04294a0598d32dc3bb,
@@ -319,6 +339,8 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 152657378588032770}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 33de5e5 (Added mock package, added Lightship Hub)
 --- !u!23 &7951913334525118729 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 7801507893258958347, guid: 76a453de5afb5c04294a0598d32dc3bb,
@@ -367,6 +389,7 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 152657378588032770}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!95 &5052985940540260252
 Animator:
   serializedVersion: 3
@@ -386,6 +409,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+--- !u!23 &7780810602415993780 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1592964650913379146, guid: 76a453de5afb5c04294a0598d32dc3bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 152657378588032770}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &402193033177176297 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 76a453de5afb5c04294a0598d32dc3bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 152657378588032770}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1071628847513453139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76a453de5afb5c04294a0598d32dc3bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 152657378588032770}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of 33de5e5 (Added mock package, added Lightship Hub)
 --- !u!1001 &1841342088921538004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -397,11 +440,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YetiBuildAShip
-      objectReference: {fileID: 0}
-    - target: {fileID: 2456661761035642446, guid: 711c60fee885b604a95a54a0e662f311,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6136193244924853909, guid: 711c60fee885b604a95a54a0e662f311,
         type: 3}
@@ -478,12 +516,15 @@ SkinnedMeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1841342088921538004}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!137 &3133724548272970835 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3670709675262706055, guid: 711c60fee885b604a95a54a0e662f311,
     type: 3}
   m_PrefabInstance: {fileID: 1841342088921538004}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 33de5e5 (Added mock package, added Lightship Hub)
 --- !u!1001 &7287928819321955285
 PrefabInstance:
   m_ObjectHideFlags: 0
